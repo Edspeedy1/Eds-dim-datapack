@@ -1,0 +1,98 @@
+{
+    "type": "minecraft:ore",
+    "config": {
+        "size": 9,
+        "discard_chance_on_air_exposure": 0,
+        "targets": [
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:stone",
+                    "probability": 0.45
+                },
+                "state": {
+                    "Name": "minecraft:coal_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:stone",
+                    "probability": 0.5
+                },
+                "state": {
+                    "Name": "minecraft:mud"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:stone"
+                },
+                "state": {
+                    "Name": "minecraft:gilded_blackstone"
+                }
+            },
+
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:deepslate",
+                    "probability": 0.45
+                },
+                "state": {
+                    "Name": "minecraft:coal_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:deepslate",
+                    "probability": 0.5
+                },
+                "state": {
+                    "Name": "minecraft:mud"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:deepslate"
+                },
+                "state": {
+                    "Name": "minecraft:gilded_blackstone"
+                }
+            },
+
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:air",
+                    "probability": 0.45
+                },
+                "state": {
+                    "Name": "minecraft:coal_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:air",
+                    "probability": 0.5
+                },
+                "state": {
+                    "Name": "minecraft:mud"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:air"
+                },
+                "state": {
+                    "Name": "minecraft:gilded_blackstone"
+                }
+            }
+        ]
+    }
+}

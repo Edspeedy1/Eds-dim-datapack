@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "eds_dim:dashing"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "eds_dim:dash"
+    }
+  }
+  

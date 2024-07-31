@@ -1,0 +1,22 @@
+{
+    "structures": [
+        {
+            "structure": "eds_dim:forest/s_mushroom_structure",
+            "weight": 3
+        },
+        {
+            "structure": "eds_dim:forest/m_mushroom_structure",
+            "weight": 1
+        },
+        {
+            "structure": "eds_dim:empty",
+            "weight": 2
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 47287486,
+        "spacing": 2,
+        "separation": 1
+    }
+}

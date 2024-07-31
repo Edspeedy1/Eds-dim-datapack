@@ -1,0 +1,18 @@
+
+{
+    "feature": "eds_dim:forest/wood_fungus",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 2
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        }
+    ]
+}
+  

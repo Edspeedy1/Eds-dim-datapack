@@ -1,0 +1,18 @@
+{
+    "structures": [
+        {
+            "structure": "eds_dim:forest/ore_obalisk_structure",
+            "weight": 3
+        },
+        {
+            "structure": "eds_dim:forest/s_tree_structure",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 68464854,
+        "spacing": 2,
+        "separation": 1
+    }
+}

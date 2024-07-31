@@ -1,0 +1,95 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "eds_dim:forest/mushrooms/s_mushroom_1",
+                "override_liquid_settings": "ignore_waterlogging",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "eds_dim:forest/mushrooms/s_mushroom_2",
+                "override_liquid_settings": "ignore_waterlogging",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "eds_dim:forest/mushrooms/s_mushroom_3",
+                "override_liquid_settings": "ignore_waterlogging",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "eds_dim:forest/mushrooms/s_mushroom_4",
+                "override_liquid_settings": "ignore_waterlogging",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "eds_dim:forest/mushrooms/s_mushroom_5",
+                "override_liquid_settings": "ignore_waterlogging",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "eds_dim:forest/mushrooms/s_mushroom_6",
+                "override_liquid_settings": "ignore_waterlogging",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "eds_dim:forest/mushrooms/s_mushroom_7",
+                "override_liquid_settings": "ignore_waterlogging",
+                "processors": []
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "eds_dim:forest/mushrooms/s_mushroom_8",
+                "override_liquid_settings": "ignore_waterlogging",
+                "processors": []
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "minecraft:empty",
+                "override_liquid_settings": "ignore_waterlogging",
+                "processors": []
+            }
+        }
+    ]
+}

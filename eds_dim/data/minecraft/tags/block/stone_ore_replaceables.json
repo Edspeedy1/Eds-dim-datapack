@@ -1,0 +1,12 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:bone_block",
+        "minecraft:snow_block",
+        "minecraft:calcite",
+        "minecraft:stone",
+        "minecraft:granite",
+        "minecraft:diorite",
+        "minecraft:andesite"
+    ]
+}

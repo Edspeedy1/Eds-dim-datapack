@@ -1,0 +1,15 @@
+{
+    "structures": [
+        {
+            "structure": "eds_dim:forest/m_underground_mushrooms_structure",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 82377414,
+        "frequency": 0.4,
+        "spacing": 6,
+        "separation": 1
+    }
+}

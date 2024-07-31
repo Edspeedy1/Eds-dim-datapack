@@ -1,0 +1,57 @@
+{
+    "type": "minecraft:tree",
+    "config": {
+        "ignore_vines": true,
+        "force_dirt": false,
+        "minimum_size": {
+            "type": "minecraft:two_layers_feature_size",
+            "min_clipped_height": 5,
+            "limit": 0,
+            "lower_size": 0,
+            "upper_size": 0
+        },
+        "dirt_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:dirt"
+            }
+        },
+        "trunk_provider": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+                {
+                    "weight": 3,
+                    "data": {
+                        "Name": "minecraft:stripped_birch_wood"
+                    }
+                },
+                {
+                    "weight": 2,
+                    "data": {
+                        "Name": "minecraft:spruce_log"
+                    }
+                }
+            ]
+        },
+        "foliage_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:air",
+                "Properties": {}
+            }
+        },
+        "trunk_placer": {
+            "type": "minecraft:fancy_trunk_placer",
+            "base_height": 4,
+            "height_rand_a": 12,
+            "height_rand_b": 5
+        },
+        "foliage_placer": {
+            "type": "minecraft:blob_foliage_placer",
+            "radius": 1,
+            "offset": 1,
+            "height": 1
+        },
+        "decorators": []
+    }
+}

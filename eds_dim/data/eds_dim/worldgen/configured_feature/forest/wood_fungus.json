@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:huge_fungus",
+    "config": {
+        "hat_state": {
+            "Name": "minecraft:oak_leaves"
+        },
+        "decor_state": {
+            "Name": "minecraft:oak_wood"
+        },
+        "stem_state": {
+            "Name": "minecraft:oak_log"
+        },
+        "valid_base_block": {
+            "Name": "minecraft:grass_block"
+        },
+        "replaceable_blocks": {
+            "type": "minecraft:true"
+        }
+    }
+}

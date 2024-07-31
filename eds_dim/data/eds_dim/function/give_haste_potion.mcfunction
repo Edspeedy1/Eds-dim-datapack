@@ -1,0 +1,7 @@
+
+data merge block ~ ~-1 ~ {Fuel:0b}
+item replace block ~ ~-1 ~ container.3 with minecraft:air
+
+execute if data block ~ ~-1 ~ {Items:[{components:{"minecraft:potion_contents":{potion:"minecraft:thick"}},Slot:0b}]} run item replace block ~ ~-1 ~ container.0 with potion[max_stack_size=1,item_name='"Potion of Haste"',attribute_modifiers={modifiers:[],show_in_tooltip:true},potion_contents={custom_color:16775503,custom_effects:[{id:"minecraft:haste",amplifier:2,duration:9600,show_particles:1b,show_icon:1b}]}]
+execute if data block ~ ~-1 ~ {Items:[{components:{"minecraft:potion_contents":{potion:"minecraft:thick"}},Slot:1b}]} run item replace block ~ ~-1 ~ container.1 with potion[max_stack_size=1,item_name='"Potion of Haste"',attribute_modifiers={modifiers:[],show_in_tooltip:true},potion_contents={custom_color:16775503,custom_effects:[{id:"minecraft:haste",amplifier:2,duration:9600,show_particles:1b,show_icon:1b}]}]
+execute if data block ~ ~-1 ~ {Items:[{components:{"minecraft:potion_contents":{potion:"minecraft:thick"}},Slot:2b}]} run item replace block ~ ~-1 ~ container.2 with potion[max_stack_size=1,item_name='"Potion of Haste"',attribute_modifiers={modifiers:[],show_in_tooltip:true},potion_contents={custom_color:16775503,custom_effects:[{id:"minecraft:haste",amplifier:2,duration:9600,show_particles:1b,show_icon:1b}]}]

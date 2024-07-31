@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "eds_dim:glass_desert",
+        "eds_dim:the_forest",
+        "eds_dim:ice_fields"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "slots": {
+        "weapon.*": {
+          "predicates": {
+            "minecraft:enchantments": [
+              {
+                "enchantments": "eds_dim:dashing",
+                "levels": {
+                  "min": 1,
+                  "max": 255
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "eds_dim:the_forest",
+    "step": "underground_structures",
+    "spawn_overrides": {},
+    "start_pool": "eds_dim:empty",
+    "terrain_adaptation": "none",
+    "size": 1,
+    "start_height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+            "above_bottom": -60
+        },
+        "max_inclusive": {
+            "above_bottom": 40
+        }
+    },
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "max_distance_from_center": 80,
+    "use_expansion_hack": false,
+    "liquid_settings": "ignore_waterlogging"
+}

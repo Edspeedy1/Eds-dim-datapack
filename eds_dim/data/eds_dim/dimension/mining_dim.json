@@ -1,0 +1,60 @@
+{
+	"type": "eds_dim:mining_type",
+	"generator": {
+		"type": "minecraft:noise",
+		"settings": "eds_dim:mining_dim",
+		"biome_source": {
+			"type": "minecraft:multi_noise",
+			"biomes": [
+                {
+                    "biome": "eds_dim:glass_desert",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": -0.5,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "eds_dim:the_forest",
+                    "parameters": {
+                        "temperature": 0.4,
+                        "humidity": 0,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "eds_dim:ice_fields",
+                    "parameters": {
+                        "temperature": 0,
+                        "humidity": 0.5,
+                        "continentalness": 0,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0.375
+                    }
+                },
+                {
+                    "biome": "eds_dim:void",
+                    "parameters": {
+                        "temperature": 0.6,
+                        "humidity": 0.8,
+                        "continentalness": -0.2,
+                        "erosion": -0.1,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                }
+            ]
+		}
+	}
+}

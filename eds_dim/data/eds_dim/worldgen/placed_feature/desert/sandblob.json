@@ -1,0 +1,42 @@
+
+{
+    "feature": {
+        "type": "minecraft:simple_random_selector",
+        "config": {
+            "features": [
+                {"feature": "eds_dim:desert/sandblob", "placement": []},
+                {"feature": "eds_dim:desert/sandblob_2", "placement": []}
+            ]
+        }
+    },
+    "placement": [
+        {
+            "type": "minecraft:rarity_filter",
+            "chance": 4
+        },
+        {
+            "type": "minecraft:count",
+            "count": 2
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:would_survive",
+                "state": {
+                    "Name": "minecraft:cactus",
+                    "Properties": {
+                        "stage": "0"
+                    }
+                }
+            }
+        }
+    ]
+}
+  

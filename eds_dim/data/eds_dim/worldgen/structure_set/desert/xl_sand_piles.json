@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "eds_dim:desert/xl_sandpile_structure",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 64583154,
+        "spacing": 20,
+        "separation": 4
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "eds_dim:forest/s_tree",
+                "override_liquid_settings": "ignore_waterlogging",
+                "processors": []
+            }
+        }
+    ]
+}

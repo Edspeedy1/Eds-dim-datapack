@@ -1,0 +1,98 @@
+{
+    "type": "minecraft:ore",
+    "config": {
+        "size": 9,
+        "discard_chance_on_air_exposure": 0,
+        "targets": [
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:air",
+                    "probability": 0.2
+                },
+                "state": {
+                    "Name": "minecraft:coal_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:air",
+                    "probability": 0.3
+                },
+                "state": {
+                    "Name": "minecraft:mud"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:air",
+                    "probability": 0.4
+                },
+                "state": {
+                    "Name": "minecraft:deepslate_redstone_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:air",
+                    "probability": 0.2
+                },
+                "state": {
+                    "Name": "minecraft:iron_block"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:air",
+                    "probability": 0.6
+                },
+                "state": {
+                    "Name": "minecraft:deepslate_diamond_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:air",
+                    "probability": 0.4
+                },
+                "state": {
+                    "Name": "minecraft:deepslate_gold_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:air",
+                    "probability": 0.4
+                },
+                "state": {
+                    "Name": "minecraft:deepslate_emerald_ore"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:random_block_match",
+                    "block": "minecraft:air",
+                    "probability": 0.1
+                },
+                "state": {
+                    "Name": "minecraft:ancient_debris"
+                }
+            },
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:air"
+                },
+                "state": {
+                    "Name": "minecraft:gilded_blackstone"
+                }
+            }
+        ]
+    }
+}

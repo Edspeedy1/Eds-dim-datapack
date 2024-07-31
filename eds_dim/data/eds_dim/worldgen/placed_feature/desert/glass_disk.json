@@ -1,0 +1,42 @@
+
+{
+    "feature": {
+        "type": "minecraft:simple_random_selector",
+        "config": {
+            "features": [
+                {"feature": "eds_dim:desert/glass_disks/black_1", "placement": []},
+                {"feature": "eds_dim:desert/glass_disks/black_2", "placement": []},
+                {"feature": "eds_dim:desert/glass_disks/cyan_1", "placement": []},
+                {"feature": "eds_dim:desert/glass_disks/cyan_2", "placement": []},
+                {"feature": "eds_dim:desert/glass_disks/glass_1", "placement": []},
+                {"feature": "eds_dim:desert/glass_disks/glass_2", "placement": []},
+                {"feature": "eds_dim:desert/glass_disks/light_blue_1", "placement": []},
+                {"feature": "eds_dim:desert/glass_disks/light_blue_2", "placement": []},
+                {"feature": "eds_dim:desert/glass_disks/light_gray_1", "placement": []},
+                {"feature": "eds_dim:desert/glass_disks/light_gray_2", "placement": []},
+                {"feature": "eds_dim:desert/glass_disks/lime_1", "placement": []},
+                {"feature": "eds_dim:desert/glass_disks/red_1", "placement": []},
+                {"feature": "eds_dim:desert/glass_disks/red_2", "placement": []},
+                {"feature": "eds_dim:desert/glass_disks/white_1", "placement": []},
+                {"feature": "eds_dim:desert/glass_disks/white_2", "placement": []},
+                {"feature": "eds_dim:desert/glass_disks/orange_1", "placement": []},
+                {"feature": "eds_dim:desert/glass_disks/orange_2", "placement": []},
+                {"feature": "eds_dim:desert/glass_disks/yellow_1", "placement": []}
+            ]
+        }
+    },
+    "placement": [
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE_WG"
+        },
+        {
+            "type": "minecraft:rarity_filter",
+            "chance": 22
+        }
+    ]
+}
+  
